@@ -4,49 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook - 로그인 또는 가입</title>
+    <link rel="stylesheet" href="./home.css">
 </head>
 <body>
-    <div id="container">
-        <div id="content">
+    <div class="container">
+        <div class="content">
 
-            <div id="left">
-                <div class="logo_text">
+            <div class="left">
+                <div id="logo_text">
                     <img src="페북로고-텍스트.svg">
                 </div>
-                <div class="main_text">
-                    <h2>Facebook에서 전세계에 있는 친구, 가족, 지인들과 함께 이야기를 나눠보세요.</h2>
-                </div>
+                    <h2 id="main_text">Facebook에서 전세계에 있는 친구, 가족, 지인들과 함께 이야기를 나눠보세요.</h2>
             </div>
 
-            <div id="right">
-                <form method="post" acrion="https://www.facebook.com/" id="login_form">
+            <div class="right">
+                <div id="login_box">
+                    <form method="post" acrion="https://www.facebook.com/" id="login_form">
 
-                    <div id="input_box">
-                        <div class="input">
-                            <input type="text" placeholder="이메일 또는 전화번호">
+                        <div id="input_box">
+                            <div class="input">
+                                <input type="text" placeholder="이메일 또는 전화번호" id="email_phone">
+                            </div>
+                            <div class="input">
+                                <input type="password" placeholder="비밀번호" id="pwd">
+                            </div>
                         </div>
-                        <div class="input">
-                            <input type="password" placeholder="비밀번호">
+    
+                        <div id="submit_box">
+                            <div class="button">
+                                <button type="submit" id="log-in">로그인</button>
+                            </div>
                         </div>
-                    </div>
-
-                    <div id="submit_box">
-                        <div class="button">
-                            <button type="submit">로그인</button>
+    
+                        <div id="forget_pwd">
+                            <a href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzIwNjA3MjM1LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login&next">비밀번호를 잊으셨나요?</a>
                         </div>
-                    </div>
-
-                    <div class="forget_pwd">
-                        <a href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzIwNjA3MjM1LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login&next">비밀번호를 잊으셨나요?</a>
-                    </div>
-
-                    <div class="horizon"><hr></div>
-
-                    <div class="join">
-                        <button>새 계정 만들기</button>
-                    </div>
-
-                </form>
+    
+                        <div id="horizon"><hr></div>
+    
+                        <div id="join">
+                            <button class="join_button">새 계정 만들기</button>
+                        </div>
+    
+                    </form>
+                </div>
 
                 <div class="mini_text">
                     유명인, 브랜드 또는 비즈니스를 위한
@@ -58,4 +59,3 @@
 
     </div>
 </body>
-</html>

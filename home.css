@@ -1,4 +1,136 @@
-#container {
+body {
+    background-color: #F0F2F5;
+}
+.container {
     width: 100%;
     height: 100%;
+}
+.content {
+    width: 833px;
+    height: 536px;
+}
+
+
+/* 왼쪽 부분 */
+.left {
+    width: 400px;
+    height: 285.58px;
+    padding: 112px 0px 16px;
+}
+
+#logo_text {
+    width: 368;
+    height: 181.58px;
+}
+
+img {
+    width: 694px;
+    height: 106px;
+    margin-top: 56px;
+}
+
+#main_text {
+    color: #1C1E21;
+    width: 425px;
+    height: 104px;
+    padding: 0px 0px 20px;
+    margin-left: 216px;
+    margin-top: -30px; 
+}
+
+/* 오른쪽 부분 */
+.right {
+    width: 396px;
+    height: 496px;
+    margin-left: 800px;
+    margin-top: -300px;
+}
+
+#login_box {
+    width: 396px;
+    height: 349.34px;
+    margin: 40px 10px 0px;
+    padding: 10px 10px 10px;
+    background-color: #FFF;
+    border-radius: 8px;
+}
+
+#login_form {
+    width: 396px;
+    height: 315.34;
+}
+
+#input_box {
+    width: 396px;
+    height: 131.58;
+}
+
+#input {
+    width: 364px;
+    height: 64px;
+    padding: 6px 0px;
+}
+
+input {
+    width: 342px;
+    height: 52px;
+    padding: 1px 16px;
+    margin-bottom: 12px;
+}
+
+#submit_box {
+    width: 396px;
+    height: 54px;
+    padding: 6px 0px 0px;
+}
+
+.button {
+    width: 364px;
+    height: 48px;
+    padding: 0px 7px;
+}
+
+#forget_pwd {
+    width: 396px;
+    height: 18.76px;
+}
+
+a {
+    width: 132.02px;
+    height: 16.5px;
+    text-decoration: none;
+}
+
+#horizon {
+    width: 364px;
+    height: 1px;
+}
+
+#join {
+    width: 396px;
+    height: 54px;
+}
+
+.join_button {
+    width: 128.13px;
+    height: 48px;
+}
+
+.mini_text {
+    width: 396px;
+    height: 18.76px;
+}
+
+a {
+    width: 76.55px;
+    height: 16px;
+}
+
+#log-in {
+    width: 364px;
+    height: 48px;
+    background-color: #0866FF;
+    border: 0px;
+    color: white;
+    padding: 0px 16px;
 }
