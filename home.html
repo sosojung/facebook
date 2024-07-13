@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./home.css">
 </head>
 <body>
-    <div class="container">
-        <div class="content">
+    <div id="container">
+        <div id="content">
 
             <div class="left">
                 <div id="logo_text">
@@ -22,23 +22,24 @@
                     <form method="post" acrion="https://www.facebook.com/" id="login_form">
 
                         <div id="input_box">
-                            <div class="input">
-                                <input type="text" placeholder="이메일 또는 전화번호" id="email_phone">
-                            </div>
-                            <div class="input">
-                                <input type="password" placeholder="비밀번호" id="pwd">
+                            <div id="input_box2">
+                                <div class="input">
+                                    <input type="text" placeholder="이메일 또는 전화번호">
+                                </div>
+                                <div class="input">
+                                    <input type="password" placeholder="비밀번호">
+                                </div>
                             </div>
                         </div>
     
                         <div id="submit_box">
                                 <button type="submit" id="log-in">로그인</button>
                         </div>
-    
-                        <div id="forget_pwd">
-                            <a href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzIwNjA3MjM1LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login&next" id="find_pwd">비밀번호를 잊으셨나요?</a>
+                        <div id="forget">
+                            <a href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzIwNjA3MjM1LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login&next">비밀번호를 잊으셨나요?</a>
                         </div>
-    
-                        <div id="horizon"><hr></div>
+
+                        <hr>
     
                         <div id="join">
                             <button id="join_button">새 계정 만들기</button>
